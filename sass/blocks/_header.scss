@@ -49,7 +49,11 @@
     color: #24303E;
     background-color: #fff;
     border-radius: 28px;
+ brand
  footer
+=======
+ 
+ main
 
     &:hover{
         opacity: 0.8;
@@ -140,6 +144,7 @@
     
 }
 
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
@@ -155,4 +160,9 @@ only screen and (                min-resolution: 2dppx) {
 
 @media only screen and (max-width:520px){
     
+
 }
+
+}
+
+
