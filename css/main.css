@@ -489,6 +489,12 @@ img {
   border-radius: 28px;
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .navbar::after {
+    background-image: url("../../images/header-menu-bgi@2x.png");
+  }
+}
+
 .hero {
   background-image: url("../../images/hero-bgi.png");
   background-position: center -121px;
@@ -500,8 +506,9 @@ img {
 .hero__inner {
   padding-top: 72px;
   padding-bottom: 535px;
-  padding-right: 300px;
-  padding-left: 300px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: center;
 }
 
 .hero__title {
