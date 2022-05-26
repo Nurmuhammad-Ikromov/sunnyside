@@ -37,8 +37,7 @@
     color: #FFFFFF;
     text-decoration: none;
 }
-.nav__item--active {
-}
+
 .nav__item-link--active {
     font-family: 'Fraunces Soft 28pt';
     padding: 16px 32px;
@@ -50,6 +49,100 @@
     color: #24303E;
     background-color: #fff;
     border-radius: 28px;
+ footer
+
+    &:hover{
+        opacity: 0.8;
+    }
+
+    &:active{
+        color: #fff;
+        background-color: #77CDF5;
+    }
+}
+
+.burger-button{
+    display: none;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+
+
+
+
+
+@media only screen and (max-width:520px){
+    .site-header__logo{
+        width: 124px;
+        height: 24px;
+
+    }
+    .nav{
+        display: none;
+    }
+    
+    .burger-button{
+        display: block;
+        margin-left: auto;
+    }
+    
+    
+    .nav--open{
+        position: absolute;
+        z-index: 100;
+        top: 106px;
+        left:5%;
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        background-color: #FFFCF8;
+    }
+    
+    .nav__list{
+        flex-direction: column;
+        padding: 39px 0;
+    }
+    .nav__item + .nav__item{
+        margin-left: 0;
+        margin-top: 32px;
+    }
+    
+    
+    
+    .nav__item-link{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: -0.142857px;
+        color: #808397;
+    }
+    
+    .nav__item-link--active{
+        font-size: 15px;
+        background-color: #FBD600;
+    }
+    
+    .triangle{
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translateY(-50%);
+        width: 0; 
+        height: 0; 
+        border-top: 24px solid transparent;
+        border-bottom: 24px solid transparent; 
+        
+        border-right:24px solid #FFFCF8; 
+        
+    }
+    
+    
+}
+
+
+
+=======
 }
 
 
@@ -69,3 +162,4 @@ only screen and (                min-resolution: 2dppx) {
 @media only screen and (max-width:520px){
     
 }
+ main
