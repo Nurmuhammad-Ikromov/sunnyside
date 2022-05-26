@@ -1,0 +1,163 @@
+.jobs__inner {
+  display: flex;
+}
+
+.jobs__cherry {
+  width: 50%;
+  padding-top: 400px;
+  padding-bottom: 59px;
+  text-align: center;
+  background-image: url("../../images/cherry-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.jobs__mandarin {
+  width: 50%;
+  padding-top: 400px;
+  padding-bottom: 59px;
+  text-align: center;
+  background-image: url("../../images/mandarin-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.cherry__heading {
+  margin: 0;
+  margin-bottom: 27px;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: -0.2px;
+  color: #24554A;
+} 
+
+.cherry__text {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  width: 339px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: -0.114286px;
+  color: #3E7467;
+}
+
+.mandarin__heading {
+  font-weight: 900;
+  font-size: 28px;
+  margin: 0;
+  margin-bottom: 27px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: -0.2px;
+  color: #052C3B;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+.mandarin__text {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  width: 339px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: -0.114286px;
+  color: #19536C;
+}
+
+@media only screen and (max-width:870px){
+  .container {
+    padding: 0;
+  }
+  .jobs__inner {
+    flex-direction: column;
+  }
+
+  .jobs__cherry {
+    width: 100%;
+  }
+  
+  .jobs__mandarin {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:520px){
+  .jobs__cherry {
+    padding-bottom: 59px;
+  }
+  
+  .jobs__mandarin {
+    padding-bottom: 59px;
+  }
+  .cherry__heading {
+    margin-bottom: 27px;
+    font-size: 28px;
+    line-height: 35px;
+  } 
+  
+  .cherry__text {
+    width: 327px;
+    font-size: 16px;
+    line-height: 27px;
+  }
+  
+  .mandarin__heading {
+    font-size: 28px;
+    margin-bottom: 27px;
+    line-height: 35px;
+  }
+  
+  .mandarin__text {
+    width: 327px;
+    font-size: 16px;
+    line-height: 27px;
+  }
+}
+
+@media only screen and (max-width:350px){
+  .cherry__heading {
+    margin-bottom: 20px;
+  } 
+  
+  .cherry__text {
+    width: 280px;
+  }
+  
+  .mandarin__heading {
+    margin-bottom: 20px;
+  }
+  
+  .mandarin__text {
+    width: 280px;
+  }
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+    
+  .jobs__cherry {
+    background-image: url("../../images/cherry-img@2x.png");
+  }
+
+  .jobs__mandarin {
+    background-image: url("../../images/mandarin-img@2x.png");
+  }
+}

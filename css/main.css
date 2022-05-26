@@ -689,6 +689,7 @@ img {
   text-align: center;
   letter-spacing: 5px;
   color: #a7aaad;
+  text-transform: uppercase;
 }
 
 .client__list {
