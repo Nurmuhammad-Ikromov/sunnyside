@@ -1,0 +1,25 @@
+.pictures__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width:1200px){
+  .pictures__img {
+    width: 250px;
+    height: 250px;
+  }
+  .pictures__inner {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width:520px){
+  .pictures__img {
+    width: 188px;
+    height: 188px;
+  }
+  .pictures__inner {
+    flex-wrap: wrap;
+  }
+}
