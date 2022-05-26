@@ -489,6 +489,7 @@ img {
   border-radius: 28px;
 }
 
+ footer
 .nav__item-link--active:hover {
   opacity: 0.8;
 }
@@ -560,6 +561,11 @@ img {
     border-top: 24px solid transparent;
     border-bottom: 24px solid transparent;
     border-right: 24px solid #FFFCF8;
+=======
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .navbar::after {
+    background-image: url("../../images/header-menu-bgi@2x.png");
+    main
   }
 }
 
@@ -587,6 +593,11 @@ img {
 .hero__inner {
   padding-top: 72px;
   padding-bottom: 535px;
+ footer
+=======
+  padding-right: 30px;
+  padding-left: 30px;
+ main
   text-align: center;
 }
 
