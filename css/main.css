@@ -717,7 +717,7 @@ img {
 }
 
 @media only screen and (max-width: 870px) {
-  .container {
+  .container-1 {
     padding: 0;
   }
   .jobs__inner {
@@ -949,6 +949,10 @@ img {
           justify-content: center;
 }
 
+.pictures__img {
+  width: 25%;
+}
+
 @media only screen and (max-width: 1200px) {
   .pictures__img {
     width: 250px;
@@ -962,8 +966,8 @@ img {
 
 @media only screen and (max-width: 520px) {
   .pictures__img {
-    width: 188px;
-    height: 188px;
+    width: 50%;
+    height: 50%;
   }
   .pictures__inner {
     -ms-flex-wrap: wrap;

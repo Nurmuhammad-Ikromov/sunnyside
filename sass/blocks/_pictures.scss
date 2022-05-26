@@ -4,6 +4,10 @@
   justify-content: center;
 }
 
+.pictures__img{
+  width: 25%;
+}
+
 @media only screen and (max-width:1200px){
   .pictures__img {
     width: 250px;
@@ -16,8 +20,8 @@
 
 @media only screen and (max-width:520px){
   .pictures__img {
-    width: 188px;
-    height: 188px;
+    width: 50%;
+    height:50%;
   }
   .pictures__inner {
     flex-wrap: wrap;
