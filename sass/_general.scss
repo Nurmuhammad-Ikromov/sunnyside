@@ -9,12 +9,13 @@ html {
   }
   
   body {
+    font-family: 'Fraunces Soft 28pt', serif;
     display: flex;
     flex-direction: column;
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: aqua;
+    // background-color: aqua;
   }
   
   main {

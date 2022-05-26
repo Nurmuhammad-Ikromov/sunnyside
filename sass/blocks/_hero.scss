@@ -1,0 +1,24 @@
+.hero {
+    background-image: url("../../images/hero-bgi.png");
+    background-position: center -121px;
+    background-repeat: no-repeat;
+    background-size: auto 800px;
+    background-color: #49BCF1;;
+}
+
+.hero__inner {
+    padding-top: 72px;
+    padding-bottom: 535px;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+.hero__title {
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 69px;
+    text-align: center;
+    letter-spacing: 8.75px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}
