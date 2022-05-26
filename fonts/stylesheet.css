@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Fraunces Soft 28pt';
+    src: url('FrauncesSoft28pt-Bold.woff2') format('woff2'),
+        url('FrauncesSoft28pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('Barlow-SemiBold.woff2') format('woff2'),
+        url('Barlow-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces Soft 28pt';
+    src: url('FrauncesSoft28pt-Black.woff2') format('woff2'),
+        url('FrauncesSoft28pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
