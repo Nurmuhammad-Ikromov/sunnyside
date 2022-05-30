@@ -53,12 +53,23 @@
     }
 }
 
+@media only screen and (max-width:400px){
+   
+
+    .hero__inner{
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
 @media only screen and (max-width:340px){
     .hero__title{
         font-size: 38px;
         line-height: 45px;
         letter-spacing: 5px;
     }
+
+   
 }
 
 @media

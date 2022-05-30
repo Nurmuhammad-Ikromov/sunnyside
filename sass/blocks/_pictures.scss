@@ -4,6 +4,10 @@
   justify-content: center;
 }
 
+.pictures__in{
+  display: none;
+}
+
 .pictures__img{
   width: 25%;
 }
@@ -24,6 +28,12 @@
     height:50%;
   }
   .pictures__inner {
+    display: none;
+  }
+
+  .pictures__in{
+    display: flex;
     flex-wrap: wrap;
+
   }
 }
